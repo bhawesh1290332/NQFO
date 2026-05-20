@@ -48,18 +48,6 @@ Validated via expanding-window cross-validation (5 folds).
 | Baseline (SVI only) | — |
 | SVI + ML Residual | **~43% reduction vs baseline** |
 
----
-
-## Repository Structure
-
-```
-├── solution.py          # Full pipeline (Phases 1–5)
-├── train.csv            # Training data (observed IVs)
-├── test.csv             # Test data (IVs to predict)
-├── submission.csv       # Model output (row_id, iv_predicted)
-├── methodology.pdf      # Detailed writeup of the approach
-└── requirements.txt     # Dependencies
-```
 
 ---
 
